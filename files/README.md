@@ -11,6 +11,6 @@
 fs.readdirSync('E:\_jobs\wheels\dev\node-demos\files\t-config');
 
 |-- t-config
-    |-- A.js
-    |-- B.js
+  |-- A.js
+  |-- B.js
 ```

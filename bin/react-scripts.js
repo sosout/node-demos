@@ -25,11 +25,11 @@ switch (script) {
   case 'eject':
   case 'start':
   case 'test': {
-    // 为了测试，将 scripts 目录和 bin 文件放在一起 
+    // 为了测试，将 t-scripts 目录和 bin 文件放在一起 
     const result = spawn.sync(
       'node',
       nodeArgs
-        .concat(require.resolve('./scripts/' + script))
+        .concat(require.resolve('./t-scripts/' + script))
         .concat(args.slice(scriptIndex + 1)),
       { stdio: 'inherit' }
     );

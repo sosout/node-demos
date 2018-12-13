@@ -12,4 +12,5 @@ function getGitStatus() {
 }
 
 const gitStatus = getGitStatus();
+
 console.log(gitStatus);

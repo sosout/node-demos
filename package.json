@@ -4,7 +4,7 @@
   "description": "A demo based on node for show-case.",
   "main": "index.js",
   "bin": {
-    "react-scripts": "./package-bin/react-scripts.js"
+    "react-scripts": "./bin/react-scripts.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,6 +24,8 @@
   },
   "homepage": "https://github.com/sosout/node-demos#readme",
   "dependencies": {
-    "cross-spawn": "^6.0.5"
+    "chalk": "^2.4.1",
+    "cross-spawn": "^6.0.5",
+    "inquirer": "^6.2.1"
   }
 }

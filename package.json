@@ -1,0 +1,29 @@
+{
+  "name": "node-demos",
+  "version": "1.0.0",
+  "description": "A demo based on node for show-case.",
+  "main": "index.js",
+  "bin": {
+    "react-scripts": "./package-bin/react-scripts.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sosout/node-demos.git"
+  },
+  "keywords": [
+    "node",
+    "demos"
+  ],
+  "author": "Weich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sosout/node-demos/issues"
+  },
+  "homepage": "https://github.com/sosout/node-demos#readme",
+  "dependencies": {
+    "cross-spawn": "^6.0.5"
+  }
+}

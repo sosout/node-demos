@@ -8,7 +8,9 @@
 ## fs.readdirSync
 读取目录内容
 ``` js
-fs.readdirSync('E:\_jobs\wheels\dev\node-demos\files\t-config');
+// 以 Windows 系统为例
+fs.readdirSync('E:\\_jobs\\node-demos\\files\\t-config');
+// ['A.js', 'B.js']
 
 |-- t-config
   |-- A.js

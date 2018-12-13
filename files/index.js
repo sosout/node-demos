@@ -8,11 +8,11 @@ const paths = {
 };
 
 const ownPath = paths.ownPath;
+console.log(ownPath)
 
 const folders = ['t-config', 't-config/jest', 't-scripts'];
 // Make shallow array of files paths
 const files = folders.reduce((files, folder) => {
-  console.log(path.join(ownPath, folder))
   return files.concat(
     fs
       .readdirSync(path.join(ownPath, folder))
@@ -22,3 +22,5 @@ const files = folders.reduce((files, folder) => {
       .filter(file => fs.lstatSync(file).isFile())
   );
 }, []);
+
+console.log(path.resolve('foo/bar', '/tmp/file/', '..', 'a/../subfile') )

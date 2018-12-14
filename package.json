@@ -27,6 +27,8 @@
     "chalk": "^2.4.1",
     "cross-spawn": "^6.0.5",
     "fs-extra": "^7.0.1",
-    "inquirer": "^6.2.1"
+    "inquirer": "^6.2.1",
+    "mkdirp": "^0.5.1",
+    "request": "^2.88.0"
   }
 }
